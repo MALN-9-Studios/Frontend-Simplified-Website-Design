@@ -1,83 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+<<<<<<< HEAD
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
- 
+    color: green;
 }
 
-nav {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #cafdff;
-    padding: 0 16px;
-}
-
-.logo {
-    width: 300px;
-    cursor: pointer;
-}
-
-ul {
- display: flex;
- 
-}
-
-header {
-    background-color: #eadcff;
-    height: calc(100vh/70px);
+=======
+.container {
+    border: 2px solid black;
     padding: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 72px;
-}
-
-.subheader {
-    font-size: 36px;
-    margin: 16px 0 24px 0;
-}
-
-button {
-    background-color: #05c7cf;
-    color: white;
-    padding: 8px 16px;
-    font-size: 24px;
-    cursor: pointer;
-    
-}
-a {
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    
-
-}
-
-li {
-   list-style-type: none;
-   padding-left: 16px;
-
+<<<<<<< HEAD
+ 
+=======
+      
+>>>>>>> be938cabfa5f8a5ca044b12ae36eb4d4e5021c35
 }
 
 .row {
     width: 100%;
-    max-width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
+<<<<<<< HEAD
+    max-width: 500px;
+    margin: 0 auto
 }
 
+.box-wrapper {
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   
+=======
+    max-width: 400px;
+    margin: 0 auto;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+>>>>>>> be938cabfa5f8a5ca044b12ae36eb4d4e5021c35
+}
 
+.box {
+    border: 2px solid red;
+<<<<<<< HEAD
+    width:45%;
+    height: 100px;
+    margin-bottom: 24px;
+}
 
+.tiny-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 
+}
 
-
+.box-tiny {
+    border: 2px solid red;
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+=======
+    width: 30%;
+    height: 100px;
+    
+>>>>>>> be938cabfa5f8a5ca044b12ae36eb4d4e5021c35
+}
+>>>>>>> b467427f4d4a4ecd0b8b0c23c881ddd68be7fd42
